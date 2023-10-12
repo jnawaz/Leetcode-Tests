@@ -13,9 +13,9 @@ final class LongestCommonPrefixTest: XCTestCase {
     func testLongestCommonPrefix() {
         
         var arrayOfStringArrays: [[String]] = []
-//        arrayOfStringArrays.append(["flower", "flow", "flight"])
+        arrayOfStringArrays.append(["flower", "flow", "flight"])
         
-//        arrayOfStringArrays.append(["dog", "racecar", "car"])
+        arrayOfStringArrays.append(["dog", "racecar", "car"])
         
         arrayOfStringArrays.append(["reflower", "flow", "flight"])
         
