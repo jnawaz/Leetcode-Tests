@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		916ABC0E2AD7F62D0073A9F8 /* LongestCommonPrefixTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916ABC0D2AD7F62D0073A9F8 /* LongestCommonPrefixTest.swift */; };
+		916ABC112AD7F6520073A9F8 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916ABC102AD7F6520073A9F8 /* LongestCommonPrefix.swift */; };
 		9191C7F72AD561A600B30002 /* Leetcode_TestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9191C7F62AD561A600B30002 /* Leetcode_TestsApp.swift */; };
 		9191C7F92AD561A600B30002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9191C7F82AD561A600B30002 /* ContentView.swift */; };
 		9191C7FB2AD561A600B30002 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9191C7FA2AD561A600B30002 /* Item.swift */; };
@@ -15,6 +17,8 @@
 		9191C80A2AD561A800B30002 /* Leetcode_TestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9191C8092AD561A800B30002 /* Leetcode_TestsTests.swift */; };
 		9191C8142AD561A800B30002 /* Leetcode_TestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9191C8132AD561A800B30002 /* Leetcode_TestsUITests.swift */; };
 		9191C8162AD561A800B30002 /* Leetcode_TestsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9191C8152AD561A800B30002 /* Leetcode_TestsUITestsLaunchTests.swift */; };
+		9191C8232AD561CD00B30002 /* RomanToIntegerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9191C8222AD561CD00B30002 /* RomanToIntegerTest.swift */; };
+		9191C8262AD5621C00B30002 /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9191C8252AD5621C00B30002 /* RomanToInteger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		916ABC0D2AD7F62D0073A9F8 /* LongestCommonPrefixTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefixTest.swift; sourceTree = "<group>"; };
+		916ABC102AD7F6520073A9F8 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
 		9191C7F32AD561A600B30002 /* Leetcode-Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leetcode-Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9191C7F62AD561A600B30002 /* Leetcode_TestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_TestsApp.swift; sourceTree = "<group>"; };
 		9191C7F82AD561A600B30002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +52,8 @@
 		9191C80F2AD561A800B30002 /* Leetcode-TestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leetcode-TestsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9191C8132AD561A800B30002 /* Leetcode_TestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_TestsUITests.swift; sourceTree = "<group>"; };
 		9191C8152AD561A800B30002 /* Leetcode_TestsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leetcode_TestsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9191C8222AD561CD00B30002 /* RomanToIntegerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntegerTest.swift; sourceTree = "<group>"; };
+		9191C8252AD5621C00B30002 /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		916ABC0C2AD7F60A0073A9F8 /* 14-LongestCommonPrefix */ = {
+			isa = PBXGroup;
+			children = (
+				916ABC0D2AD7F62D0073A9F8 /* LongestCommonPrefixTest.swift */,
+			);
+			path = "14-LongestCommonPrefix";
+			sourceTree = "<group>";
+		};
+		916ABC0F2AD7F6350073A9F8 /* 14-LongestCommonPrefix */ = {
+			isa = PBXGroup;
+			children = (
+				916ABC102AD7F6520073A9F8 /* LongestCommonPrefix.swift */,
+			);
+			path = "14-LongestCommonPrefix";
+			sourceTree = "<group>";
+		};
 		9191C7EA2AD561A500B30002 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +120,8 @@
 		9191C7F52AD561A600B30002 /* Leetcode-Tests */ = {
 			isa = PBXGroup;
 			children = (
+				916ABC0F2AD7F6350073A9F8 /* 14-LongestCommonPrefix */,
+				9191C8242AD5620400B30002 /* RomanToInteger */,
 				9191C7F62AD561A600B30002 /* Leetcode_TestsApp.swift */,
 				9191C7F82AD561A600B30002 /* ContentView.swift */,
 				9191C7FA2AD561A600B30002 /* Item.swift */,
@@ -116,7 +142,9 @@
 		9191C8082AD561A800B30002 /* Leetcode-TestsTests */ = {
 			isa = PBXGroup;
 			children = (
+				916ABC0C2AD7F60A0073A9F8 /* 14-LongestCommonPrefix */,
 				9191C8092AD561A800B30002 /* Leetcode_TestsTests.swift */,
+				9191C8222AD561CD00B30002 /* RomanToIntegerTest.swift */,
 			);
 			path = "Leetcode-TestsTests";
 			sourceTree = "<group>";
@@ -128,6 +156,14 @@
 				9191C8152AD561A800B30002 /* Leetcode_TestsUITestsLaunchTests.swift */,
 			);
 			path = "Leetcode-TestsUITests";
+			sourceTree = "<group>";
+		};
+		9191C8242AD5620400B30002 /* RomanToInteger */ = {
+			isa = PBXGroup;
+			children = (
+				9191C8252AD5621C00B30002 /* RomanToInteger.swift */,
+			);
+			path = RomanToInteger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9191C7F92AD561A600B30002 /* ContentView.swift in Sources */,
+				916ABC112AD7F6520073A9F8 /* LongestCommonPrefix.swift in Sources */,
+				9191C8262AD5621C00B30002 /* RomanToInteger.swift in Sources */,
 				9191C7FB2AD561A600B30002 /* Item.swift in Sources */,
 				9191C7F72AD561A600B30002 /* Leetcode_TestsApp.swift in Sources */,
 			);
@@ -271,6 +309,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9191C80A2AD561A800B30002 /* Leetcode_TestsTests.swift in Sources */,
+				916ABC0E2AD7F62D0073A9F8 /* LongestCommonPrefixTest.swift in Sources */,
+				9191C8232AD561CD00B30002 /* RomanToIntegerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
